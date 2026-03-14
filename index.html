@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sistema de Evaluación de Riesgo de Obesidad</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%234ade80'/%3E%3Ccircle cx='50' cy='24' r='11' fill='%231a1917'/%3E%3Cpath d='M28 85 L28 58 Q24 52 20 46 Q18 40 24 38 Q30 36 33 43 L36 50 L36 44 Q36 36 50 36 Q64 36 64 44 L64 50 L67 43 Q70 36 76 38 Q82 40 80 46 Q76 52 72 58 L72 85 Z' fill='%231a1917'/%3E%3Crect x='36' y='72' width='11' height='26' rx='5' fill='%231a1917'/%3E%3Crect x='53' y='72' width='11' height='26' rx='5' fill='%231a1917'/%3E%3Cpath d='M50 56 Q47 52 44 54 Q41 56 41 59 Q41 62 50 68 Q59 62 59 59 Q59 56 56 54 Q53 52 50 56Z' fill='%234ade80'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA8wQAELAYMDLl5JUVB7k4KEZFRCuwPGBiBEAwSk4sLGHADoKpv1yBqL+viUYcLcKakFicD6Q9ArFIEtBxopAiQLZIOYWuA2EkQtg2IXV5SUAJkB4DYRSFBzkB2CpCtkY7ETkJiJxcUgdT3ANk2uTmlyQh3M/Ck5oUGA2kOIJZhKGYIYnBncAL5H6IkfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsO48QQ4RJQWJRIliIBYiZ0tIYGD4tZ2DgjWRgEL7AwMAVDQsIHG5TALvNnSEfCNMZchhSgSKeDHkMyQx6QJYRgwGDIYMZAKbWPz9HbOBQAAAC2ElEQVR42u3d223jQAyF4dhwJSknVbmqlJNWsk8LBIZkj24WL9//uBtIQ/KQwxmNrI8PAAAAAAAAAAAAAAAAAAAAAAAAIBtfP/ffr5/7b2cfXLoGfurfvz/v7fxxFfyx/1MBAgVvTaYuDe6We2SqJJds2brUuVuzeo/7RRbEJUPQ1zhyJPD/r7fkb99pQ3kBLMnOEcdtuV6ksbQQwJ4O6nCtdgLY07nv6B22jre1APYuqXs6ds19R++51AflBLB3lh/tzKPGM+KLo7hF7/wjBH7NqmHEvggrghACiBz0V/fMvnt4E/TeYrgJ+HHjzCCIm4D3FkS7p4EIJIDuhzEi+EAFUAFAABq9tk2vCqACWPZ1tlkFUAEsjTrbdKoAvj/vl857AWc+BjYFgAAQSACdVgKRbL1yRm/bQ1SAqUawUnMY2T49gB4ABBBkLuzQD0SzNUwF6LQhFMnW0MvACqKI/rp4uB6g8jQQ0TZNoCbQfNl57CEFUHEaiGqTKcAUoJR2HnNYAVSaBiLbcpVRvceqB9ADKJ2dbUhVATKU1mwN61UG9R57uh4gcoZlXK5qAjWB+UppxEx7HFOWqSvNTmCmXiDTG09pnBr5YEW2bwSk7QEiTgVZS799ACuBXAKYO017psPnsj9TFUi5DxBBBFPBtw/w5h7AGBtWgAhVoEr2pxTA39/sP0MEz4Kf8bmFreDmpBTAWVWgWvaXqADvEkGleb+EAB6DfqQIXu32ZT6zkLoCvPqI0x4ieHXt7MfWyjSBc08Mt4hg7iFPpVfZ0wvg8aNNe4lgJPgVDq2WWwbuIYIOmV9KAFMBXyuC0Wf7Vd5cKlMBpr7ft1QEz4JfrfSXnAK2iKBj8Ev2AKNLtb9BHQ1+RcoJYC5D50Sw5DxfxR+uKFkBtgSwU/BLTwFzJfxZIOe2kyv/clnpHmBJNnfLfDzpAQAAAAAAAAAAAAAAAAAAAAAAAAAgNv8As3kmGc9CW4YAAAAASUVORK5CYII=">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -259,17 +259,11 @@
   <div class="header-top">
     <div class="header-left">
       <svg class="header-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <!-- Círculo de fundo -->
         <circle cx="50" cy="50" r="48" fill="#4ade80"/>
-        <!-- Cabeça -->
-        <circle cx="50" cy="24" r="11" fill="#1a1917"/>
-        <!-- Corpo com braços -->
-        <path d="M28 85 L28 58 Q24 52 20 46 Q18 40 24 38 Q30 36 33 43 L36 50 L36 44 Q36 36 50 36 Q64 36 64 44 L64 50 L67 43 Q70 36 76 38 Q82 40 80 46 Q76 52 72 58 L72 85 Z" fill="#1a1917"/>
-        <!-- Pernas -->
-        <rect x="36" y="72" width="11" height="26" rx="5" fill="#1a1917"/>
-        <rect x="53" y="72" width="11" height="26" rx="5" fill="#1a1917"/>
-        <!-- Coração -->
-        <path d="M50 56 Q47 52 44 54 Q41 56 41 59 Q41 62 50 68 Q59 62 59 59 Q59 56 56 54 Q53 52 50 56Z" fill="#4ade80"/>
+        <circle cx="50" cy="22" r="12" fill="white"/>
+        <path d="M18 95 L18 62 Q14 54 14 46 Q14 36 22 34 Q30 33 34 42 L38 52 L38 38 Q38 32 50 32 Q62 32 62 38 L62 52 L66 42 Q70 33 78 34 Q86 36 86 46 Q86 54 82 62 L82 95 Z" fill="white"/>
+        <path d="M38 68 L62 68 L62 95 Q62 98 58 98 L54 98 L54 72 L46 72 L46 98 L42 98 Q38 98 38 95 Z" fill="white"/>
+        <path d="M50 52 Q46 46 42 49 Q38 52 38 56 Q38 62 50 70 Q62 62 62 56 Q62 52 58 49 Q54 46 50 52Z" fill="#4ade80"/>
       </svg>
       <div>
       <div class="header-tag" id="hdr-tag">Proyecto Bachiller — Ciencias Básicas</div>
