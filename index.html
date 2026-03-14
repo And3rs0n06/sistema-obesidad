@@ -75,13 +75,16 @@
 
   /* LANG SCREEN */
   #lang-screen {
-    position: fixed; inset: 0; background: var(--text);
+    position: fixed; inset: 0; background: #0f1117;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     z-index: 1000; gap: 40px;
     transition: opacity 0.5s, transform 0.5s;
   }
   #lang-screen.hide { opacity: 0; pointer-events: none; transform: scale(1.04); }
+  #lang-screen .lang-title { color: rgba(255,255,255,0.9) !important; }
+  #lang-screen .lang-subtitle { color: rgba(255,255,255,0.35) !important; }
+  #lang-screen .lang-btn.gn { color: rgba(255,255,255,0.85) !important; }
 
   .lang-title {
     font-family: var(--serif); font-style: italic; font-weight: 300;
