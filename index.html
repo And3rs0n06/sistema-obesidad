@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sistema de Evaluación de Riesgo de Obesidad</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0nZycgeDE9JzAlJyB5MT0nMCUnIHgyPScxMDAlJyB5Mj0nMTAwJSc+CiAgICAgIDxzdG9wIG9mZnNldD0nMCUnIHN0b3AtY29sb3I9JyM0YWRlODAnLz4KICAgICAgPHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjNjhkOGMwJy8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8Y2lyY2xlIGN4PSc1MCcgY3k9JzUwJyByPSc0OCcgZmlsbD0nIzFhMTkxNycvPgogIDxwYXRoIGQ9J00yOCA3NSBRMTAgNTAgMjggMjUnIHN0cm9rZT0ndXJsKCNnKScgc3Ryb2tlLXdpZHRoPSc0JyBmaWxsPSdub25lJyBzdHJva2UtbGluZWNhcD0ncm91bmQnLz4KICA8cGF0aCBkPSdNNzIgNzUgUTkwIDUwIDcyIDI1JyBzdHJva2U9J3VybCgjZyknIHN0cm9rZS13aWR0aD0nMycgZmlsbD0nbm9uZScgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBvcGFjaXR5PScwLjcnLz4KICA8cGF0aCBkPSdNNDIgMzAgUTM4IDM4IDQwIDQ2IFEzNiA1NCAzOCA2NSBRNDIgNzIgNTAgNzQgUTU4IDcyIDYyIDY1IFE2NCA1NCA2MCA0NiBRNjIgMzggNTggMzAgUTU0IDI2IDUwIDI2IFE0NiAyNiA0MiAzMFonIHN0cm9rZT0ndXJsKCNnKScgc3Ryb2tlLXdpZHRoPScyLjUnIGZpbGw9J25vbmUnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCcvPgogIDxwYXRoIGQ9J000NCAzNCBRNDEgNDQgNDMgNTQgUTQ0IDYyIDQ2IDY4JyBzdHJva2U9J3VybCgjZyknIHN0cm9rZS13aWR0aD0nMicgZmlsbD0nbm9uZScgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBvcGFjaXR5PScwLjYnLz4KICA8Y2lyY2xlIGN4PSc1MCcgY3k9JzE4JyByPSc2JyBmaWxsPSd1cmwoI2cpJy8+CiAgPGNpcmNsZSBjeD0nNjcnIGN5PSc1OCcgcj0nMS41JyBmaWxsPSd1cmwoI2cpJyBvcGFjaXR5PScwLjknLz4KICA8Y2lyY2xlIGN4PSc3MCcgY3k9JzYyJyByPScxLjInIGZpbGw9J3VybCgjZyknIG9wYWNpdHk9JzAuNycvPgogIDxjaXJjbGUgY3g9JzcyJyBjeT0nNjYnIHI9JzEnIGZpbGw9J3VybCgjZyknIG9wYWNpdHk9JzAuNScvPgo8L3N2Zz4=">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%234ade80'/%3E%3Ccircle cx='50' cy='24' r='11' fill='%231a1917'/%3E%3Cpath d='M28 85 L28 58 Q24 52 20 46 Q18 40 24 38 Q30 36 33 43 L36 50 L36 44 Q36 36 50 36 Q64 36 64 44 L64 50 L67 43 Q70 36 76 38 Q82 40 80 46 Q76 52 72 58 L72 85 Z' fill='%231a1917'/%3E%3Crect x='36' y='72' width='11' height='26' rx='5' fill='%231a1917'/%3E%3Crect x='53' y='72' width='11' height='26' rx='5' fill='%231a1917'/%3E%3Cpath d='M50 56 Q47 52 44 54 Q41 56 41 59 Q41 62 50 68 Q59 62 59 59 Q59 56 56 54 Q53 52 50 56Z' fill='%234ade80'/%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -259,21 +259,17 @@
   <div class="header-top">
     <div class="header-left">
       <svg class="header-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#4ade80"/>
-            <stop offset="100%" stop-color="#68d8c0"/>
-          </linearGradient>
-        </defs>
-        <path d="M28 75 Q10 50 28 25" stroke="url(#lg)" stroke-width="4" fill="none" stroke-linecap="round"/>
-        <path d="M72 75 Q90 50 72 25" stroke="url(#lg)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
-        <path d="M42 30 Q38 38 40 46 Q36 54 38 65 Q42 72 50 74 Q58 72 62 65 Q64 54 60 46 Q62 38 58 30 Q54 26 50 26 Q46 26 42 30Z" stroke="url(#lg)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M44 34 Q41 44 43 54 Q44 62 46 68" stroke="url(#lg)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
-        <circle cx="50" cy="18" r="6" fill="url(#lg)"/>
-        <circle cx="67" cy="58" r="1.5" fill="url(#lg)" opacity="0.9"/>
-        <circle cx="70" cy="62" r="1.2" fill="url(#lg)" opacity="0.7"/>
-        <circle cx="72" cy="66" r="1" fill="url(#lg)" opacity="0.5"/>
-        <circle cx="74" cy="70" r="0.8" fill="url(#lg)" opacity="0.3"/>
+        <!-- Círculo de fundo -->
+        <circle cx="50" cy="50" r="48" fill="#4ade80"/>
+        <!-- Cabeça -->
+        <circle cx="50" cy="24" r="11" fill="#1a1917"/>
+        <!-- Corpo com braços -->
+        <path d="M28 85 L28 58 Q24 52 20 46 Q18 40 24 38 Q30 36 33 43 L36 50 L36 44 Q36 36 50 36 Q64 36 64 44 L64 50 L67 43 Q70 36 76 38 Q82 40 80 46 Q76 52 72 58 L72 85 Z" fill="#1a1917"/>
+        <!-- Pernas -->
+        <rect x="36" y="72" width="11" height="26" rx="5" fill="#1a1917"/>
+        <rect x="53" y="72" width="11" height="26" rx="5" fill="#1a1917"/>
+        <!-- Coração -->
+        <path d="M50 56 Q47 52 44 54 Q41 56 41 59 Q41 62 50 68 Q59 62 59 59 Q59 56 56 54 Q53 52 50 56Z" fill="#4ade80"/>
       </svg>
       <div>
       <div class="header-tag" id="hdr-tag">Proyecto Bachiller — Ciencias Básicas</div>
